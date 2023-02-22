@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__Apple_icon" width="16" height="16" data-name="Apple icon" viewBox="0 0 16 16">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Rectangle_991" fill="none" d="M0 0H11.449V14H0z" data-name="Rectangle 991"/>
+        </clipPath>
+    </defs>
+    <g id="prefix__Apple" transform="translate(7.972 7.976)">
+        <g id="prefix__Group_1681" clip-path="url(#prefix__clip-path)" data-name="Group 1681" transform="translate(-5.725 -7)">
+            <path id="prefix__Path_4724" d="M10.991 5.967a3.188 3.188 0 0 0 .362 5.58A7.391 7.391 0 0 1 9.4 14.808a1.667 1.667 0 0 1-1.957.29 3.406 3.406 0 0 0-3.043 0 1.594 1.594 0 0 1-1.957-.362A7.847 7.847 0 0 1 .048 7.561a3.333 3.333 0 0 1 4.783-2.608 2.464 2.464 0 0 0 2.1-.072 3.333 3.333 0 0 1 4.13 1.087" data-name="Path 4724" transform="translate(.024 -1.257)"/>
+            <path id="prefix__Path_4725" d="M10.678 0C11.04 1.449 9.373 3.478 8 3.116A2.9 2.9 0 0 1 10.678 0" data-name="Path 4725" transform="translate(-2.2)"/>
+        </g>
+    </g>
+</svg>

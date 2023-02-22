@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__Google_play" width="16" height="16" data-name="Google play" viewBox="0 0 16 16">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path id="prefix__Rectangle_989" fill="none" d="M0 0H12.477V13.999H0z" data-name="Rectangle 989"/>
+        </clipPath>
+    </defs>
+    <g id="prefix__Google-play" transform="translate(7.98 8)">
+        <g id="prefix__Group_1679" clip-path="url(#prefix__clip-path)" data-name="Group 1679" transform="translate(-6.239 -6.999)">
+            <path id="prefix__Path_4716" d="M.08.8l6.279 6.359L.08 13.438a2.093 2.093 0 0 1-.08-.322V1.122A3.22 3.22 0 0 1 .08.8" data-name="Path 4716" transform="translate(0 -.156)"/>
+            <path id="prefix__Path_4717" d="M7.159 9.5l1.932 1.771L7.884 12l-6.36 3.618-.724.241L7.159 9.5" data-name="Path 4717" transform="translate(-.156 -1.853)"/>
+            <path id="prefix__Path_4718" d="M9.03 4.527L7.179 6.3.9.1l.563.161L8.95 4.527h.08" data-name="Path 4718" transform="translate(-.176 -.02)"/>
+            <path id="prefix__Path_4719" d="M11.512 10.205L9.5 8.193 11.512 6.1l1.288.724.966.563.4.322a.644.644 0 0 1 0 .966l-.241.241-2.415 1.368" data-name="Path 4719" transform="translate(-1.853 -1.19)"/>
+        </g>
+    </g>
+</svg>
