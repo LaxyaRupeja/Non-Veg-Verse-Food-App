@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login-card{
+    border: 1px solid black;
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* gap: 100px; */
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.login-card  > button{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #d11243;
+    color: white;
+    border: none;
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 5px;
+}
+.login-card > h1{
+    margin-bottom: 40px;
+}
+
+.login-card >input{
+    height: 40px;
+    margin-bottom: 30px;
+    width: 100%;
+    padding-left: 10px;
+    font-family: 'Lato';
+    font-size: 15px;
+    /* border-radius: 5px; */
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+
+}
+.login-card > input:nth-child(2){
+    /* display: none; */
+}
+main{
+    height: 100vh;
+    display: flex;
+}
+img{
+    width: 50%;
+    margin-top: 30px;
+}
