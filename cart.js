@@ -66,13 +66,32 @@ function disData(array) {
             localStorage.setItem("cart", JSON.stringify(temp));
         })
         btn.addEventListener("click", () => {
-            chDiv.remove();
-            temp = temp.filter((e) => {
-                return e.id != element.id
+
+            Swal.fire({
+                title: 'Are you sure?',
+                text: "You won't be able to revert this!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'Yes, delete it!'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    Swal.fire(
+                        'Deleted!',
+                        'Item has been deleted.',
+                        'success'
+                    )
+                    chDiv.remove();
+                    temp = temp.filter((e) => {
+                        return e.id != element.id
+                    })
+                    localStorage.setItem("cart", JSON.stringify(temp))
+                    amountNo -= element.price * element.quantity;
+                    amount.innerText = amountNo;
+                }
             })
-            localStorage.setItem("cart", JSON.stringify(temp))
-            amountNo -= element.price * element.quantity;
-            amount.innerText = amountNo;
+
         })
 
     });
