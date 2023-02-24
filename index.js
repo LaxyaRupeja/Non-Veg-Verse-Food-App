@@ -86,10 +86,19 @@ function disData(arr) {
             if (!(temp.includes(element))) {
                 temp.push(element);
                 localStorage.setItem("cart", JSON.stringify(temp))
-                alert("Product Added To Cart")
+                Swal.fire(
+                    'Good job!',
+                    'Product Added to cart',
+                    'success'
+                )
             }
             else {
-                alert("Product Already in the cart")
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Product Already in Cart',
+                    footer: '<a href="./cart.html">👉 Go to cart</a>'
+                })
             }
         })
     });
@@ -130,10 +139,19 @@ function disDat(arr) {
             if (!(temp.includes(element))) {
                 temp.push(element);
                 localStorage.setItem("cart", JSON.stringify(temp))
-                alert("Product Added To Cart")
+                Swal.fire(
+                    'Good job!',
+                    'Product Added to Cart',
+                    'success'
+                )
             }
             else {
-                alert("Product Already in the cart")
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Product Already in Cart',
+                    footer: '<a href="./cart.html">👉 Go to cart</a>'
+                })
             }
         })
     });

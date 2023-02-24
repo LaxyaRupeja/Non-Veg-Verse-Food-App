@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>Login</title>
-    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="signup.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -18,24 +18,35 @@
   <body>
     <main>
       <div id="login-card" class="login-card">
-        <h1>Sign In</h1>
-        <input id="num" type="text" required placeholder="Enter Your Number" />
+        <h1>Sign Up</h1>
+        <input id="name" type="text" required placeholder="Enter Your Name" />
+        <input
+          id="email"
+          type="email"
+          required
+          placeholder="Enter Your Email"
+        />
+        <input
+          id="number"
+          type="number"
+          required
+          placeholder="Enter Your Number"
+        />
         <input
           id="pass"
           type="text"
           required
           placeholder="Enter the Password"
         />
-        <button id="enter">Proceed Via Password</button>
-        <button id="ent">Login</button>
+        <button id="enter">Create Account</button>
         <p>By signing in you agree to our terms and conditions</p>
         <img src="./www_licious_in/licious-logo (2).svg" alt="" />
         <div class="sign">
-          <h3>Dont have an Account?</h3>
-          <a href="./signup.html">Sign Up</a>
+          <h3>Already a User?</h3>
+          <a href="./login.html">Log In</a>
         </div>
       </div>
     </main>
   </body>
-  <script src="./login.js"></script>
+  <script src="./signup.js"></script>
 </html>
