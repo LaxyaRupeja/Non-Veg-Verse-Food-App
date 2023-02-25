@@ -82,6 +82,10 @@ nav > div > img{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
+}
+.caterg > p{
+    cursor: pointer;
 }
 .login{
     font-size: 12px;
@@ -166,6 +170,7 @@ nav > div > img{
 main{
     background-color: #f7f6f6;
     margin-top: 80px;
+    width: 100%;
     /* border: 1px solid rebeccapurple; */
 }
 .swiper > h2{
@@ -422,9 +427,6 @@ main{
     font-family: sans-serif;
     font-size: 30px;
 }
-.foot-1 > ul{
-    /* border: 1px solid red; */
-}
 .foot-1{
     display: flex;
     /* border: 1px solid black; */
@@ -494,4 +496,251 @@ footer li{
     padding-bottom: 40px;
     border-top: 1px solid #4a4a4a;
     padding-top: 27px;
+}
+
+.dropdown{
+    width: 550px;
+    height: 550px;
+    background-color: white;
+    /* border: 1px solid black; */
+    position: absolute;
+    border-radius: 9px;
+    right: 100px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    z-index: 10000;
+    /* opacity: 0.6; */
+    display: none;
+}
+.dropdown-1{
+    width: 100%;
+    height: 100%;
+   display: flex;
+   padding: 20px;
+}
+.left-side,.right-side{
+    width: 50%;
+    /* border: 1px solid greenyellow; */
+    font-size: 14px;
+}
+.left-side > div{
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid #F4F5FF;
+    height: 11%;
+    padding: 7px;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    /* gap: 19px; */
+    /* padding-top: 18px; */
+    /* padding-bottom: 15px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    /* border: 1px solid  limegreen; */
+    background-color: #f1f1f1;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+.right-side > h3{
+    border-bottom: 1px solid #E6E6E6;
+    padding: 20px;
+    padding-top: 18.5px;
+    /* padding-bottom: 0; */
+    font-size: 14px;
+    color: #4B4F54;
+    font-weight: 500;
+}
+.right-side > h3:hover{
+    color: black;
+    background-color: white;
+}
+.left-side > div:hover{
+    background-color: #f1f1f1;
+}
+.left-side > div > h3{
+    margin-top: 8px;
+    font-weight: 400;
+    color: #4B4F54;
+}
+.left-side > div:nth-child(9){
+    border: none;
+}
+@media only screen and (max-width: 900px){
+    .discountBanner{
+        display: none;
+    }
+    .banner-2{
+        display: none;
+    }
+    .check{
+        display: none;
+    }
+    .mySweeper{
+        width: 90%;
+        font-size: 15px;
+    }
+    nav > .search-bar{
+        display: none;
+    }
+    .know{
+        display: none;
+    }
+    .deli{
+        display: none;
+    }
+    .swiper-wrapper > div{
+        height: 300px;
+    }
+    .swiper-wrapper > div > img{
+        width: 100%;
+        margin: 0;
+    }
+    .swiper-wrapper > div >h4{
+        margin-top: 0px;
+    }
+    .firstchild{
+        margin-top: 0px;
+        /* display: none; */
+ font-size: 12px;
+    }
+    .swiper-wrapper button{
+        background-color: #d11243;
+        color: white;
+        border: none;
+        width: 70px;
+        height: 25px;
+        border-radius: 5px;
+        font-size: 10px;
+        /* font-weight: ; */
+        font-family: 'Lato'
+    }
+    #apptext{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    nav > .location{
+        display: none;
+    }
+    nav > .search-bar{
+        display: none;
+    }
+    nav > .caterg{
+        display: none;
+    }
+    nav > .login{
+      width: auto;
+      margin: 0;
+      padding: 0;
+    }
+    .banner{
+        display: none;
+    }
+    .uphead{
+        display: none;
+    }
+    header{
+        top: 0;
+        height: 50px;
+        align-items: center;
+        padding-left: 24px;
+    }
+    nav{
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }
+    .discountBanner{
+        display: none;
+    }
+    .check{
+        display: none;
+    }
+    .banner-2{
+        display: none;
+    }
+    .know{
+        display: none;
+    }
+    .grid-card{
+        grid-template-columns: repeat(3,1fr);
+        /* background-color: green; */
+    }
+    .mySweeper > div > div{
+        height: 80%;
+    }
+    .mySweeperv{
+        width: 10%;
+    }
+    .swiper-wrapper > div{
+        height: 200px;
+    }
+    .swiper-wrapper > div > img{
+        width: 100%;
+        margin: 0;
+    }
+    .swiper-wrapper > div >h4{
+        margin-top: 0px;
+   
+    
+    }
+    .firstchild{
+        margin-top: 0px;
+        display: none;
+
+    }
+    .secondchild{
+        margin-top: 0px;
+       display: none;
+    
+    }
+    
+    .pricecart{
+        margin: 0;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .deli{
+        display: none;
+    }
+    .swiper-wrapper button{
+        background-color: #d11243;
+        color: white;
+        border: none;
+        width: 60px;
+        height: 20px;
+        border-radius: 5px;
+        font-size: 10px;
+        /* font-weight: ; */
+        font-family: 'Lato'
+    }
+    #apptext{
+        display: none;
+    }
+    .mySweeper{
+        width: 90%;
+        font-size: 12px;
+    }
+    
+    .foot-2{
+        display: none;
+    }
+    .mySweeper > .swiper-wrapper > .swiper-slide{
+      height: 350px;
+    }
+    .insta{
+        padding: 0;
+        margin: 0;
+    }
 }

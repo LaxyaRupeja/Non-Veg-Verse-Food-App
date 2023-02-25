@@ -19,6 +19,9 @@ but2.addEventListener("click", () => {
     for (let i = 0; i < temp.length; i++) {
         if (temp[i].numberD == num.value && temp[i].passD == inputOtp.value) {
             flag = true;
+            let nameArr = [];
+            nameArr.push(temp[i].nameD)
+            localStorage.setItem("login", JSON.stringify(nameArr))
             break;
         }
     }

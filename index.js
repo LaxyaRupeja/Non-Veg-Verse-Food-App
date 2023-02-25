@@ -12,7 +12,16 @@ var swiper = new Swiper(".mySwiper", {
         clickable: true,
     },
 });
-
+let disName = document.getElementById("userD");
+window.addEventListener("load", () => {
+    let something = JSON.parse(localStorage.getItem("login")) || []
+    if (something.length == 0) {
+        disName.innerText = "Login"
+    }
+    else {
+        disName.innerText = something[0]
+    }
+})
 let nav = document.querySelector("header")
 window.addEventListener("scroll", () => {
     if (window.scrollY == 0) {
@@ -20,6 +29,7 @@ window.addEventListener("scroll", () => {
     }
     else {
         nav.style.top = "0px"
+        dropdown.style.display = "none"
     }
 })
 var sweeper = new Swiper(".mySweeper", {
@@ -103,6 +113,7 @@ function disData(arr) {
         })
     });
 }
+
 // https://mocki.io/v1/384fff42-069d-4b1d-bc56-3221c6402fec
 function disDat(arr) {
     arr.forEach(element => {
@@ -156,3 +167,13 @@ function disDat(arr) {
         })
     });
 }
+let catClick = document.getElementsByClassName("caterg")[0];
+let dropdown = document.getElementsByClassName("dropdown")[0];
+catClick.addEventListener("click", () => {
+    if (dropdown.style.display == "block") {
+        dropdown.style.display = "none"
+    }
+    else {
+        dropdown.style.display = "block"
+    }
+})

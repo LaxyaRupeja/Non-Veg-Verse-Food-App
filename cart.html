@@ -50,8 +50,8 @@
         <i class="fa-solid fa-angle-down"></i>
       </div>
       <div class="search-bar">
-        <input type="text" placeholder="Search for any delicious Product" />
-        <img src="./www_licious_in/search_icon (2).svg" alt="" />
+        <input id="search" type="text" placeholder="Search for any delicious Product" />
+        <img id="search-but" src="./www_licious_in/search_icon (2).svg" alt="" />
       </div>
       <div class="caterg">
         <img src="./www_licious_in/category-dropdown-icon.svg" alt="" />
@@ -60,7 +60,7 @@
       <a href="./login.html">
         <div class="login">
           <img src="./www_licious_in/profile_icon.svg" alt="" />
-          <p>Login</p>
+          <p id="userD">Login</p>
         </div>
       </a>
       <a id="carr" href="./cart.html">
@@ -78,11 +78,16 @@
       <div class="pric">
         <h3>Total :-₹<span id="amount">0</span></h3>
       </div>
-      <div class="checkout">
-        <h3>Checkout ></h3>
-      </div>
+      <a class="checkout" href="./checkout.html"><div>
+          <h3>Checkout ></h3>
+      </div></a>
     </div>
     <div class="grids">
+      <select name="" id="sort">
+        <option value="">Select</option>
+        <option value="ltoh">Low to High</option>
+        <option value="htol">High to Low</option>
+      </select>
       <h1>Order Summary</h1>
       <div id="cardwrap" class="card-wrap">
         <!-- <div>
