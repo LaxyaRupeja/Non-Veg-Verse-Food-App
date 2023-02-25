@@ -21,5 +21,5 @@ create.addEventListener("click", () => {
     redirect();
 })
 function redirect() {
-    setTimeout(() => { document.location.href = "./login.html"; }, 3000);
+    setTimeout(() => { document.location.href = "./login.html"; }, 1000);
 }
