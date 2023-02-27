@@ -1,4 +1,4 @@
-### Hi there 👋<!--
+### Hi there 👋
 
 **Non-Veg-Verse**
 
@@ -14,5 +14,5 @@
 
 ### Tech Stack i've used - Javascript-ES6 | Html-5 | CSS-3 | Figma | SweetAlert | Font-Awesome | Mocki.io | Swiper.Js
  
- 
+
 **Thank You**
