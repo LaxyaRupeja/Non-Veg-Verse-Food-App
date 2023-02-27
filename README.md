@@ -6,3 +6,5 @@ in cart page user can see all the product and modify the quantity of it.
 User can also see total cart value in cart page.
 after adding product to cart user can click on checkout button so it will redirect him to checkout page.
 in checkout user can add their address and make payment for their order.
+
+Tech Stack i've used - Javascript-ES6 Html-5 CSS-3 Figma SweetAlert 
