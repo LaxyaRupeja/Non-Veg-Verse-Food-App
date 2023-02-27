@@ -1,4 +1,4 @@
-Firstly User have to create in order to Login to the website.
+Firstly User have to create an account in order to Login to the website.
 then user can add product into the cart by pressing add to cart button under the product card.
 if user added same product twice it will show an error.
 you can visit to cart page by clicking on the cart icon in navbar.
