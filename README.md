@@ -1,6 +1,6 @@
 ### Hi there 👋 I'm Laxya
 
-**Non-Veg-Verse**
+**Non-Veg-Verse**(Licious Clone)
 
 
 - Firstly User have to create an account in order to Login to the website.
